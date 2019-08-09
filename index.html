@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bayerisches Rotes Kreuz - Bereitschaft Kahl am Main</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="megafish.css" media="screen">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="C:\Users\hp\OneDrive\Homepage\tab_icon.png">
+
+
+  </head>
+  <body>
+
+<!-- IDEA: header -->
+<script src="scripts\jquery.js"></script>
+<script src="scripts\hoverIntent.js"></script>
+<script src="scripts\superfish.js"></script>
+
+<script>
+
+(function($){ //create closure so we can safely use $ as alias for jQuery
+
+  $(document).ready(function(){
+
+    var exampleOptions = {
+      speed: 'fast'
+    }
+    // initialise plugin
+    var example = $('#example').superfish(exampleOptions);
+
+    // buttons to demonstrate Superfish's public methods
+    $('.destroy').on('click', function(){
+      example.superfish('destroy');
+    });
+
+    $('.init').on('click', function(){
+      example.superfish(exampleOptions);
+    });
+
+    $('.open').on('click', function(){
+      example.children('li:first').superfish('show');
+    });
+
+    $('.close').on('click', function(){
+      example.children('li:first').superfish('hide');
+    });
+  });
+
+})(jQuery);
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="header">
+  <div class="brk_logo">
+    <a href="#"><img src="images\brk_logo.png" alt=""></a>
+  </div>
+  <div class="brk_kahl_logo">
+    <p>Bayerisches Rotes Kreuz <br>
+      Bereitschaft<br>
+      Kahl am Main</p>
+  </div>
+  <div class="wrap">
+    <ul class="sf-menu" id="example">
+      <li class="current">
+        <a href="followed.html">Angebote</a>
+        <div class="sf-mega">
+          <div class="sf-mega-section">
+            <p>Sanitätsdienst</p>
+            <ul>
+              <li><a href="angebote\sanitätsdienst.html">Sanitätsdienst</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <p>Bereitschaftsabend</p>
+            <ul>
+              <li><a href="angebote\bereitschaftsabend.html">Bereitschaftsabend</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <p>Erste-Hilfe-Kurse</p>
+            <ul>
+              <li><a href="angebote\erste-hilfe-kurse.html">Online Anmeldung</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <p>Altpapiersammlung</p>
+            <ul>
+              <li><a href="angebote\altpapier_und_altkleidersammlung.html">Altpapier und Altkleidersammlung</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <p>Kinder & Jugendliche</p>
+            <ul>
+              <li><a href="angebote\bereitschaftsjugend.html">Bereitschaftsjugend</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <p>Blutspende</p>
+            <ul>
+              <li><a href="angebote\blutspende.html">Blutspende</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </li>
+      <li>
+        <a href="followed.html">Aktuelles</a>
+        <div class="sf-mega">
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item that is longer</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="followed.html">Über Uns</a>
+        <div class="sf-mega">
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item that is longer</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="followed.html">Einsatzdienste</a>
+        <div class="sf-mega">
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item that is longer</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        <a href="followed.html">Das BRK</a>
+        <div class="sf-mega">
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item that is longer</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+
+          <div class="sf-mega-section">
+            <h2>list heading:</h2>
+            <ul>
+              <li class="current"><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+              <li><a href="followed.html">menu item</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- IDEA: content -->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="C:\Users\hp\OneDrive\Homepage\bühenbild_(übersichtsseite)\Centstueck_1920x640.jpg" style="width:100%">
+    <div class="caption_text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="C:\Users\hp\OneDrive\Homepage\bühenbild_(übersichtsseite)\csm_header_kurse_690310a032.jpg" style="width:100%">
+    <div class="caption_text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="C:\Users\hp\OneDrive\Homepage\bühenbild_(übersichtsseite)\csm_sanitaetsdienst-header_0807de49c5.jpg" style="width:100%">
+    <div class="caption_text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+
+<div id="content">
+
+
+<!-- IDEA: welcome -->
+  <div class="text">
+    <h1>Herzlich Willkommen bei der BRK-Bereitschaft Kahl!</h1>
+    <p>Der BRK Bereitschaft Kahl hat eine lange Tradition. Schon seit 1927 engagieren sich Menschen in und um Kahl für das Rote Kreuz. Derzeit zählt unsere Bereitschaft ca. 40 aktive Mitglieder. Wir engagieren uns in vielfältigen Bereichen von der Jugendarbeit bis zum Sanitätsdienst, von der Blutspende bis zum Notfalleinsatz. Weitere Informationen finden Sie unter den einzelnen Kategorien unserer Homepage.</p>
+  </div>
+
+<!-- IDEA: menu -->
+  <div class="menu">
+    <a href="#">
+      <img src="menu\img_angebote.jpg" alt="">
+      <h3>Angebote</h3>
+    </a>
+    <p>Hier finden Sie die Angebote der Bereitschaft Kahl.</p>
+  </div>
+  <div class="menu">
+    <a href="#">
+      <img src="menu\img_aktuelles.jpg" alt="">
+      <h3>Aktuelles</h3>
+    </a>
+    <p>Hier finden Sie die Aktuelle Berichte der Bereitschaft Kahl</p>
+  </div>
+  <div class="menu">
+    <a href="#">
+      <img src="menu\img_über_uns.jpg" alt="">
+      <h3>Über uns</h3>
+    </a>
+    <p>Über uns</p>
+  </div>
+  <div class="menu">
+    <a href="#">
+      <img src="menu\img_einsatzdienste.jpg" alt="">
+      <h3>Einsatzdienste</h3>
+    </a>
+    <p>Auf dieser Seite geben wir Ihnen einen Überblick über die Einsätze, welche durch die Bereitschaft Kahl durchgeführt worden sind.</p>
+  </div>
+  <div class="menu">
+    <a href="#">
+      <img src="menu\img_das_brk.jpg" alt="">
+      <h3>Das BRK</h3>
+    </a>
+    <p>Das Bayerische Rote Kreuz rettet Menschen, hilft in Notlagen, bietet Menschen eine Gemeinschaft, steht den Armen und Bedürftigen bei und wacht über das humanitäre Völkerrecht - in Deutschland und in der ganzen Welt. Entdecken Sie die Vielfalt des Bayerischen Roten Kreuzes!</p>
+  </div>
+  <div class="menu">
+    <a target="_blank" class="big-brk-button" data-style="kampagne" href="https://www.blutspendedienst.com/blutspendetermine/suche?cities%5B%5D=Kahl+a.+Main&exact_search=true">Blutspendetermine in Kahl a. Main</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://www.blutspendedienst.com/assets/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,'script','brk-wjs');</script>
+  </div>
+  <div class="menu">
+    <a href="#">
+      <img src="" alt="">
+      <h3></h3>
+    </a>
+    <p></p>
+  </div>
+  <div class="menu">
+    <a href="#">
+      <img src="" alt="">
+      <h3></h3>
+    </a>
+    <p></p>
+  </div>
+
+<!-- IDEA: hiorg -->
+  <div class="hiorg">
+    <h1>Nächste Termine</h1>
+    <iframe src="https://www.hiorg-server.de/termine.php?ov=kahl&monate=12&typ=termin&ohnedetails=1&&iframe=1" width="100%" height="250"></iframe>
+  </div>
+</div>
+
+
+
+
+
+<!-- IDEA: footer -->
+
+<div id="footer">
+  <hr>
+  <div class="links">
+    <p>Spenden</p>
+    <a href="#">Jetzt spenden</a>
+  </div>
+  <div class="links">
+    <p>Mitwirken</p>
+    <a href="#">Ehrenamt</a>
+    <a href="#">Stellenbörse</a>
+    <a href="#">Blutspende</a>
+  </div>
+  <div class="links">
+    <p>Informieren</p>
+    <a href="#">Angebote</a>
+    <a href="#">Aktuelles</a>
+    <a href="#">Gästebuch</a>
+    <a href="#">Leistungen von A-Z</a>
+  </div>
+  <div class="links">
+    <p>Service</p>
+    <a href="#">Adressen</a>
+    <a href="#">Kontakt</a>
+    <a href="#">Sitemap</a>
+    <a href="#">Datenschutz</a>
+    <a href="#">Impressum</a>
+    <a href="#">RSS-Feed</a>
+    <a href="#">DRK Intern</a>
+  </div>
+  <div class="social_media">
+    <p>Social Media-Kanäle des BRK Kahl</p>
+    <a href="https://www.facebook.com/brk.kahl/" target="_blank"><img src="images\facebook.png" alt=""></a>
+    <a href="https://www.instagram.com/brk.kahl/" target="_blank"><img src="images\instagramm.png" alt=""></a>
+    <a href="https://twitter.com/brkkahl" target="_blank"><img src="images\twitter.png" alt=""></a>
+  </div>
+</div>
+
+
+
+
+  </body>
+</html>
